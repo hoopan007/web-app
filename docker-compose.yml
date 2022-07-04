@@ -37,6 +37,6 @@ services:
         restart: always
         volumes:
             - ./redis:/data
-            - ./etc/redis/redis.conf:/etc/redis/redis.conf
+            - ./etc/redis:/etc/redis
         command:
             redis-server /etc/redis/redis.conf
