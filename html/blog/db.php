@@ -1,7 +1,7 @@
 <?php
 
 //创建连接
-$servername = 'web-app_mysql_1'; //域名
+$servername = 'mysql'; //域名
 $database = 'blog';
 $username = 'blog_user'; //用户名
 $passwd = '123456'; //密码
